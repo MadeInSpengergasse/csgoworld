@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tradelist {
+/* EVERYTHING in the trade list :3 */
+	
+}
+
+.trade {
+/* The single TRADE */
+
+	border-style: solid;
+	width: 95%;
+	min-height:120px;
+	height: 190px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top:20px;
+}
+
+.tradeheader {
+/* HEADER = User_info */
+	
+}
+
+.tradebody {
+/* BODY = Left&Right + Items */
+	margin-top: 2px;
+}
+
+.left {
+/* LEFT BOX = Have */
+	float: left;
+	margin-left: 5px;
+	border: solid 1px;
+	width: 45%;
+}
+
+.right {
+/* RIGHT BOX = Want */
+	float: right;
+	margin-right: 5px;
+	border: solid 1px;
+	width: 45%
+}
+
+.img {
+	border: solid medium black;	
+	margin-left: 2px;
+	margin-right: 2px;
+	float: none;
+}
+
+#pup {
+	position                : absolute;
+	width                   : 375px;
+	padding                 : 5px;
+	font-size               : 11pt;
+	color                   : #fff;
+	background-image        : url(../images/bg-pup.png);
+	font-family             : "courier new", tahoma, verdana, arial, sans-serif;
+	font-weight             : bold;
+	text-align              : left;
+	border                  : 2px solid #333;
+	z-index                 : 200; /* aaaalways on top*/
+}
+
+.tradeowner {
+	font-size: 18px;
+	text-decoration:none;
+}
+
+@font-face {
+	font-family: csgo;
+	src: url(../customfont/cs_regular.ttf);	
+}
+
+.csgofont {
+	font-family: csgo;
+	font-size:28px
+}

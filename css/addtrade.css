@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#addtrade {
+	width: 95%;
+	/* border: solid red; */
+	height: 325px;
+	float: none;
+}
+
+.hidden {
+	display: none;	
+}
+
+
+
+#addtrade_have {
+	float: left;
+	width: 45%;
+	border: solid;
+	height: 180px;
+	margin-left: 20px;
+}
+
+#addtrade_want {
+	float: right;
+	width: 45%;
+	border: solid;
+	height: 180px;
+	margin-richt: 20px;
+}
+
+#invs {
+	width: 95%;
+	min-height: 500px;
+	float: none;
+	/* border: solid orange; */
+	height: 100%;
+	background: white;
+	
+}
+
+#inventory {
+	float: left;
+	width: 45%;
+	/* border: solid yellow; */
+	height: 100%;
+	background: white;
+}
+
+#item_list {
+	float: right;
+	width: 45%;
+	/* border: solid purple; */
+	height: 100%;
+	background: white;
+}
+
+h4 {
+	font-family: 'PT Sans', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #616161;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.center {
+	text-align: center;	
+}
+
+#comment {
+	 clear:both;
+	 margin: 20px;
+	 width:95%;
+}
+
+#button {
+	float: right;
+	/*
+	margin-top: -20px;
+	margin-right: 30px;	
+	*/
+}
+
+#title {
+	margin: 30px;
+	font-size: 30px;
+}
