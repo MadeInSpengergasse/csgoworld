@@ -105,3 +105,8 @@ footer {
 	font-family: csgo;
 	font-size:28px
 }
+
+.title {
+	font-size: 60px;	
+	margin: 30px;
+}

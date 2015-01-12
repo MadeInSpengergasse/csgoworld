@@ -5,12 +5,3 @@
 	font-size: 10px;
 }
 
-@font-face {
-	font-family: csgo;
-	src: url(../customfont/cs_regular.ttf);	
-}
-
-.csgofont {
-	font-family: csgo;
-	font-size:28px
-}

@@ -59,7 +59,7 @@ if(!isset($_SESSION['steamid'])) {
 <br><br>
 <div id="content">
 <div id="title">
-<b>ADD A TRADE</b>
+<a class="csgofont title">Add a trade</a>
 </div>
 <br><br>
 
@@ -184,5 +184,7 @@ foreach ($decoded_inv['rgDescriptions'] as &$item) {
 Powered by <a href="http://steampowered.com">Steam</a>.
 SteamAuth by <a href="https://github.com/SmItH197/SteamAuthentication">SmItH197</a>
 Hover-Over-Popups by <a href="http://www.nicolashoening.de/?twocents&nr=8">nicolashoening</a>
+<a href="/contact.php" style="float: right;">Contact</a>
+
 </footer>
 </html>

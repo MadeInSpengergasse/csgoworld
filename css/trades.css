@@ -69,13 +69,3 @@
 	font-size: 18px;
 	text-decoration:none;
 }
-
-@font-face {
-	font-family: csgo;
-	src: url(../customfont/cs_regular.ttf);	
-}
-
-.csgofont {
-	font-family: csgo;
-	font-size:28px
-}

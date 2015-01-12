@@ -51,7 +51,7 @@ if(!isset($_SESSION['steamid'])) {
 </div>
 <br><br>
 <div id="content">
-<div class="csgofont">My Profile</div><br><br>
+<div class="csgofont title">My Profile</div><br><br>
 <?php
 if(!isset($_SESSION['steamid'])) {
 	exit("Please log in first!");	
@@ -107,5 +107,7 @@ if(is_null($trade_url)){
 Powered by <a href="http://steampowered.com">Steam</a>.
 SteamAuth by <a href="https://github.com/SmItH197/SteamAuthentication">SmItH197</a>
 Hover-Over-Popups by <a href="http://www.nicolashoening.de/?twocents&nr=8">nicolashoening</a>
+<a href="/contact.php" style="float: right;">Contact</a>
+
 </footer>
 </html>

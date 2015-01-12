@@ -23,13 +23,6 @@
 <a class="headline csgofont" href="index.php" id="main">CSGOWORLD</a>
 <a class="headline csgofont" href="trades.php" id="trades">Trades</a>
 <?php
-if(isset($_SESSION['steamid'])) {
-
-echo '<a class="headline csgofont" href="profile.php" id="profile">My Profile</a>';
-echo '<a class="headline csgofont" href="addtrade.php" id="addtrade">Add a trade</a>';
-
-}
-
 
 if(!isset($_SESSION['steamid'])) {
 
@@ -37,10 +30,13 @@ if(!isset($_SESSION['steamid'])) {
     
 }  else {
     include ('steamauth/userInfo.php');
+	
+	echo '<a class="headline csgofont" href="profile.php" id="profile">My Profile</a>';
+	echo '<a class="headline csgofont" href="addtrade.php" id="addtrade">Add a trade</a>';
 
     logoutbutton();
 }    
-?>  
+?>   
 </div>
 </div>
 
@@ -50,7 +46,7 @@ if(!isset($_SESSION['steamid'])) {
 </div>
 <br><br>
 <div id="content">
-<div class="csgofont">Trades</div><br><br>
+<div class="csgofont title">Trades</div><br><br>
 
 
 <?php
@@ -176,5 +172,6 @@ for($i=0; $i<10; $i++)
 Powered by <a href="http://steampowered.com">Steam</a>.
 SteamAuth by <a href="https://github.com/SmItH197/SteamAuthentication">SmItH197</a>
 Hover-Over-Popups by <a href="http://www.nicolashoening.de/?twocents&nr=8">nicolashoening</a>
+<a href="/contact.php" style="float: right;">Contact</a>
 </footer>
 </html>

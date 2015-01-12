@@ -14,7 +14,7 @@
 <script type="text/javascript" src="js/nhpup_1.1.js"></script>
 <meta charset="utf-8">
 <meta name="description" content="Join now CSGOWORLD! Trading in the best way! No signup - completely free!">
-<title>CSGOWORLD.ME | Your CS:GO Trading site!</title>
+<title>CSGOWORLD.ME | Contact</title>
 </head>
 
 <body>
@@ -23,6 +23,13 @@
 <a class="headline csgofont" href="index.php" id="main">CSGOWORLD</a>
 <a class="headline csgofont" href="trades.php" id="trades">Trades</a>
 <?php
+if(isset($_SESSION['steamid'])) {
+
+echo '<a class="headline csgofont" href="profile.php" id="profile">My Profile</a>';
+echo '<a class="headline csgofont" href="addtrade.php" id="addtrade">Add a trade</a>';
+
+}
+
 
 if(!isset($_SESSION['steamid'])) {
 
@@ -30,9 +37,6 @@ if(!isset($_SESSION['steamid'])) {
     
 }  else {
     include ('steamauth/userInfo.php');
-	
-	echo '<a class="headline csgofont" href="profile.php" id="profile">My Profile</a>';
-	echo '<a class="headline csgofont" href="addtrade.php" id="addtrade">Add a trade</a>';
 
     logoutbutton();
 }    
@@ -48,19 +52,13 @@ if(!isset($_SESSION['steamid'])) {
 	
 <div id="body">
 <div id="content">
-<div id="contentimages">
-<img src="images/rekt.png" align="left">
-<img src="images/doge.png" align="right">
-</div>
-<div id="welcometext">
-Hello and welcome to <div class="csgofont">CSGOWORLD</div>
-This is a school project created by 2 students.<br>
-It is meant to be a trading website for easy and comfortable trading between users.<br>
-It is still in development and we try to improve it as much as we can!<br>
-We hope you enjoy it!
-</div>
+<div class="csgofont title">Contact</div><br><br>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   Steam Links of the developers: <br>
+   Technical stuff: <a href="http://steamcommunity.com/id/bigseeproduction/">BigSeeProduction</a>.<br>
+   Design: <a href="http://steamcommunity.com/id/stollen3">Pulsa</a>.
+
+<br><br><br><br><br><br><br><br><br><br><br>
 
 </div>
 </div>
@@ -70,6 +68,7 @@ Powered by <a href="http://steampowered.com">Steam</a>.
 SteamAuth by <a href="https://github.com/SmItH197/SteamAuthentication">SmItH197</a>
 Hover-Over-Popups by <a href="http://www.nicolashoening.de/?twocents&nr=8">nicolashoening</a>
 MySQL Search by <a href="http://ninetofive.me/blog/build-a-live-search-with-ajax-php-and-mysql">ninetofive.me</a>
+Our <a href="http://www.spengergasse.at/">School</a>
 <a href="/contact.php" style="float: right;">Contact</a>
 
 </footer>
