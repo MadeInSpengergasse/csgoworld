@@ -59,7 +59,7 @@ if(!isset($_SESSION['steamid'])) {
 <br><br>
 <div id="content">
 <div id="title">
-<b>ADD A TRADE</b>
+<a class="csgofont"><b>ADD A TRADE</b></a>
 </div>
 <br><br>
 
