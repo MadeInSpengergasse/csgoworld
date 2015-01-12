@@ -13,11 +13,11 @@
 <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="js/nhpup_1.1.js"></script>
 <meta charset="utf-8">
-
 <title>CSGOWORLD.ME | Trades</title>
 </head>
 
 <body>
+
 <div id="top">
 <div id="links">
 <a class="headline csgofont" href="index.php" id="main">CSGOWORLD</a>
