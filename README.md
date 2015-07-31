@@ -11,3 +11,5 @@ When you use it for your own purposes:
 
 # DISLAIMER
 It is VERY badly programmed. I started this project when we STARTED with PHP in school. :/ Maybe I will rewrite the whole thing :)
+
+## There are possibilities for SQL Injection etc EVERYWHERE!
